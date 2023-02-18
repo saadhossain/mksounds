@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import topbanner from '../../assests/right-sidebar-top.png';
 import DisplaySidebarProducts from './DisplaySidebarProducts';
 const RightSidebar = () => {
-
+    //Set the data to the state
     const [products, setProducts] = useState([])
-    // console.log(products)
+    //Fetch data from the backend server
     useEffect(()=> {
         fetch('https://api.hiring.masterkey.tech/api/v1/product/get')
         .then(res => res.json())
