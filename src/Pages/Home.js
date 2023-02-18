@@ -3,7 +3,7 @@ import HomeProductCarousel from '../Components/HomeComponents/HomeProductCarouse
 
 const Home = () => {
     return (
-        <div className='w-[800px] mx-10'>
+        <div className='w-[800px] mx-5'>
             <HomeProductCarousel />
         </div>
     );

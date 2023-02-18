@@ -47,7 +47,7 @@ const LeftSidebar = () => {
                     <FaHistory className='w-6 h-6' />
                     History
                 </NavLink>
-                <NavLink to='/' className='flex items-center gap-11 text-2xl font-semibold'>
+                <NavLink to='/contact' className='flex items-center gap-11 text-2xl font-semibold'>
                     <BsFillChatLeftFill className='w-6 h-6' />
                     Contact Us
                 </NavLink>
