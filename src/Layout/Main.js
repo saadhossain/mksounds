@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div className='flex w-[1440px] mx-auto'>
             <LeftSidebar/>
-            <Outlet></Outlet>
+            <Outlet className='w-[800px]'></Outlet>
             <RightSidebar/>
         </div>
     );
